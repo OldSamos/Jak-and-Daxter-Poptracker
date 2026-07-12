@@ -2,9 +2,10 @@
 {
     "name": "Jak and Daxter",
     "game_name": "Jak and Daxter: The Precursor Legacy",
-    "package_version": "0.0.7",
+    "package_version": "0.0.8",
     "package_uid": "Jak and Daxter Test",
     "author": "Legs & Samos",
+    "versions_url": "https://github.com/OldSamos/Jak-and-Daxter-Poptracker/archive/refs/tags/0.0.8.zip",
     "variants": {
         "standard": {
             "display_name": "Map Tracker",
