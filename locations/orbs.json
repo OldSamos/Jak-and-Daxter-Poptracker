@@ -26,17 +26,17 @@
                     },
                     {
                         "name": "Cache Cliff",
-                        "access_rules": ["$tiny_uppies","$no_rando"],
+                        "access_rules": ["[$tiny_uppies]","$no_rando"],
                         "item_count": 15
                     },
                     {
                         "name": "Yakow Cliff",
-                        "access_rules": ["$over_and_over_and_uppies","$no_rando"],
+                        "access_rules": ["[$over_and_over_and_uppies]","$no_rando"],
                         "item_count": 3
                     },
                     {
                         "name": "Oracle Platform",
-                        "access_rules": ["$long_jumps","$no_rando"],
+                        "access_rules": ["[$long_jumps]","$no_rando"],
                         "item_count": 6
                     }
                 ]
@@ -74,17 +74,17 @@
                     },
                     {
                         "name": "Post Jungle Elevator",
-                        "access_rules": ["Elevator"],
+                        "access_rules": ["Elevator","[OutofLogic]"],
                         "item_count": 17
                     },
                     {
                         "name": "Post Jungle Elevator with Eco",
-                        "access_rules": ["Elevator,BlueSwitch"],
+                        "access_rules": ["Elevator,BlueSwitch","Punch,PunchUppercut,JumpKick,[OutofLogic]"],
                         "item_count": 34
                     },
                     {
                         "name": "Post Dark Eco Plant",
-                        "access_rules": ["Elevator,BlueSwitch,CanFight","Elevator,BlueSwitch,$no_rando"],
+                        "access_rules": ["Elevator,BlueSwitch,CanFight","Elevator,BlueSwitch,$no_rando","Punch,PunchUppercut,JumpKick,[OutofLogic]"],
                         "item_count": 5
                     }
                 ]
@@ -132,7 +132,7 @@
                     },
                     {
                         "name": "Orb Cache",
-                        "access_rules": ["Roll,RollJump","$no_rando"],
+                        "access_rules": ["[Roll],[RollJump]","$no_rando"],
                         "item_count": 20
                     },
                     {
@@ -239,22 +239,22 @@
                     },
                     {
                         "name": "Dark Cave",
-                        "access_rules": ["CanFight,DoubleJump","CanFight,Crouch,CrouchJump","$no_rando"],
+                        "access_rules": ["[CanFight],DoubleJump","[CanFight],Crouch,CrouchJump","$no_rando","JumpDive,[OutofLogic]"],
                         "item_count": 5
                     },
                     {
                         "name": "Spider Tunnel Crates",
-                        "access_rules": ["YellowSwitch"],
+                        "access_rules": ["YellowSwitch","Roll,RollJump,[OutofLogic]"],
                         "item_count": 12
                     },
                     {
                         "name": "Robot Scaffolding Level One",
-                        "access_rules": ["DoubleJump","JumpKick","$no_rando"],
+                        "access_rules": ["[DoubleJump]","[JumpKick]","$no_rando"],
                         "item_count": 53
                     },
                     {
                         "name": "Robot Scaffolding Level Two and Three",
-                        "access_rules": ["Can Fight","$no_rando"],
+                        "access_rules": ["[Can Fight]","$no_rando"],
                         "item_count": 33
                     }
                 ]
@@ -274,7 +274,7 @@
                     },
                     {
                         "name": "Yellow Eco Orbs",//combines Frozen Box Cave Crates, 
-                        "access_rules": ["YellowSwitch"],
+                        "access_rules": ["YellowSwitch","FlutFLut,[OutofLogic]","DoubleJump,[OutofLogic]","Crouch,CrouchJump,[OutofLogic]","Jumpdive,[OutofLogic]","Roll,RollJump,[OutofLogic]","CrouchJump,[OutofLogic]","Punch,PunchUppercut,JumpKick,[OutofLogic]"],
                         "item_count": 8
                     },
                     {
@@ -289,12 +289,12 @@
                     },
                     {
                         "name": "Snowy Fort Orbs and Caches",//combines Fort Interior, Fort Interior Caches
-                        "access_rules": ["FortGate,$tiny_uppies"],
+                        "access_rules": ["FortGate,$tiny_uppies","DoubleJump,JumpKick,[OutofLogic]","FlutFlut,[OutofLogic]"],
                         "item_count": 70
                     },
                      {
                         "name": "Snowy Fort Course End",
-                        "access_rules": ["FortGate,$some_uppies"],
+                        "access_rules": ["FortGate,$some_uppies","DoubleJump,Jumpkick,[OutofLogic]","FlutFLut,[OutofLogic]"],
                         "item_count": 2
                     }
                 ]

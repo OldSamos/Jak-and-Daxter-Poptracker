@@ -1,11 +1,10 @@
 ﻿// https://chriskirknielsen.com/fonts/ottselesque/
 {
-    "name": "Jak and Daxter Poptracker",
+    "name": "Jak and Daxter",
     "game_name": "Jak and Daxter: The Precursor Legacy",
-    "package_version": "1.5.5",
+    "package_version": "0.0.7",
     "package_uid": "Jak and Daxter Test",
-    "author": "Legs",
-	"versions_url": "https://raw.githubusercontent.com/LegsLegsLegs/Jak-and-Daxter-Poptracker/versions/versions.json",
+    "author": "Legs & Samos",
     "variants": {
         "standard": {
             "display_name": "Map Tracker",

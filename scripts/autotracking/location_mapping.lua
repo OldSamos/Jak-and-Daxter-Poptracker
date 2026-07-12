@@ -1749,7 +1749,7 @@ LOCATION_MAPPING = {
 	[741035465] =  {"@Tertiary Area - Volcanic Crater Region/Spider Cave/Orb Bundle"},
 	[741035466] =  {"@Tertiary Area - Volcanic Crater Region/Spider Cave/Orb Bundle"},
 --Snowy Mountain
-	[741002153] =  {"@Tertiary Area - Volcanic Crater Region/Snowy Mountain/Snowy Mountain Gondola"},
+	[741002153] =  {"@Tertiary Area - Volcanic Crater Region/Snowy Mountain/Gondola Press Circle"},
 	[741000066] =  {"@Tertiary Area - Volcanic Crater Region/Snowy Mountain/Power Cell (Deactivate the Precursor Blockers)"},
 	[741000060] =  {"@Tertiary Area - Volcanic Crater Region/Snowy Mountain/Power Cell (Find the Yellow Vent Switch)"},
 	[741002108] =  {"@Tertiary Area - Volcanic Crater Region/Snowy Mountain/Yellow Eco Switch"},
