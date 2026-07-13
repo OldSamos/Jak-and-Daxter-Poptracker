@@ -5,7 +5,7 @@
     "package_version": "0.0.8",
     "package_uid": "Jak and Daxter Test",
     "author": "Legs & Samos",
-    "versions_url": "https://github.com/OldSamos/Jak-and-Daxter-Poptracker/archive/refs/tags/0.0.8.zip",
+    "versions_url": "https://raw.githubusercontent.com/OldSamos/Jak-and-Daxter-Poptracker/versions/versions.json",
     "variants": {
         "standard": {
             "display_name": "Map Tracker",
