@@ -86,7 +86,7 @@
                     },
 					{
                         "name": "Scout Fly (Overlooking Farmer's House)",
-						"access_rules": ["[$over_and_over_and_uppies],$flybox","$no_rando","Punch,PunchUppercut,[OutofLogic]","Punch,Crouch,CrouchJump,[OutofLogic]","Punch,DoubleJump,[OutofLogic]"],
+						"access_rules": ["[$over_and_over_and_uppies],$flybox","$no_rando","Punch,PunchUppercut,[OutofLogic]","Punch,Crouch,CrouchJump,[OutofLogic]","DoubleJump,[OutofLogic]"],
                         "item_count": 1
                     },
 					{
