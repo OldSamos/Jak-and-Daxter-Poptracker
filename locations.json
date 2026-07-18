@@ -1,0 +1,1365 @@
+[
+   //Start Area
+	{
+        "name": "Start Area - Geyser Rock and Sandover Region",
+        "children": [
+//Geyser Rock
+            {
+                "name": "Geyser Rock",               
+                "sections": [
+					{
+                        "name": "Power Cell (Cell on the Path)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Open the Precursor Door)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Climb up the Cliff)",
+                        "access_rules": ["[$over_and_uppies]","$no_rando"],		
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Scout Fly",
+                        "item_count": 7
+                    },
+                    {
+                        "name": "Orb Bundle",
+                        "visibility_rules": "Orbsanity_Level",
+                        "access_rules": ["[$level_orbs_accessible|GR]"],
+                        "item_count": 50
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 132,
+                        "y": 732,
+						"size": 10
+                    }
+                ]
+            },
+//Sandover Village
+            {
+                "name": "Sandover Village",
+                "sections": [
+					{
+                        "name": "Power Cell (90 Orbs to the Mayor)",
+						"access_rules": ["[$orb_trades]"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (90 Orbs to Your Uncle)",
+						"access_rules": ["[$orb_trades]"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Herd the Yakows)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (120 Orbs to the Oracle)",
+						"access_rules": ["[$orb_trades],$long_jumps","[$orb_trades],$no_rando"],
+                        "item_count": 2
+                    },
+					{
+                        "name": "Orb Cache in Sandover Village (by Farmer's House)",
+                        "access_rules": ["[$over_and_over_and_uppies]","$no_rando"],					
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Scout Fly (Fisherman's House)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Mayor's House)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Under Bridge)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Behind Sculptor's House)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Overlooking Farmer's House)",
+						"access_rules": ["[$over_and_over_and_uppies],$flybox","$no_rando","Punch,PunchUppercut,[OutofLogic]","Punch,Crouch,CrouchJump,[OutofLogic]","DoubleJump,[OutofLogic]"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Near Oracle)",
+						"access_rules": ["Punch,PunchUppercut,[OutofLogic]","$no_rando","Crouch,CrouchJump,$flybox,[OutofLogic]","CrouchJump,$flybox,[OutofLogic]","$long_jumps,$flybox"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Farmer's House)",
+                        "access_rules": ["[$tiny_uppies]","[$flybox]"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Orb Bundle",
+                        "visibility_rules": "Orbsanity_Level",
+                        "access_rules": ["[$level_orbs_accessible|SV]"],
+                        "item_count": 50
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 24,
+                        "y": 590,
+						"size": 10
+                    }
+				]
+			},
+//Sentinel Beach
+			{
+                "name": "Sentinel Beach",
+                "sections": [
+					{
+                        "name": "Power Cell (Unblock the Eco Harvesters)",
+						"access_rules": ["CanFight","$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Push the Flut Flut Egg)",
+						"access_rules": ["Punch","Kick","JumpKick","$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Flut Flut (Push the Flut Flut Egg)",
+						"access_rules": ["Punch","Kick","JumpKick","$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Get the Power Cell from the Pelican)",
+						"access_rules": ["CanFight","DoubleJump,[OutofLogic]","Roll,RollJump,[OutofLogic]","BlueSwitch","$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Chase the Seagulls)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Climb the Sentinel)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Launch up to the Cannon Tower)",
+						"access_rules": ["BlueSwitch,[CanFight]","JumpKick,[OutofLogic]","JumpDive,[OutofLogic]","DoubleJump,[OutofLogic]","Punch,[OutofLogic]","Roll,RollJump,[OutofLogic]","$no_rando,[OutofLogic]"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Explore the Beach)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Orb Cache by the Pelican's Nest",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Orb Cache by the Flut Flut Egg",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Scout Fly (Entrance)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Overlooking Locked Boxes)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Path to Flut Flut)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Under Wood Pillars)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Sentinel)",
+						"access_rules": ["BlueSwitch","$flybox","Punch,[OutofLogic]","Roll,RollJump,[OutofLogic]","$no_rando","Punch,PunchUppercut,[OutofLogic]"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Overlooking Green Eco Vents)",
+						"access_rules": ["$log_moves,$flybox","DoubleJump,$flybox","CrouchJump,$flybox,[OutofLogic]","Crouch,CrouchJump,$flybox","BlueSwitch,JumpKick","$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Overlooking Blue Eco Vent)",
+						"access_rules": ["BlueSwitch","$log_moves,$flybox","JumpDive,[OutofLogic]","Crouch,CrouchJump,$flybox,[OutofLogic]","$no_rando"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Orb Bundle",
+                        "visibility_rules": "Orbsanity_Level",
+                        "access_rules": ["$level_orbs_accessible|SB","Roll,RollJump,[OutofLogic]","Punch,[OutofLogic]","$no_rando,[OutofLogic]"],
+                        "item_count": 150
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 78,
+                        "y": 485,
+						"size": 10
+                    }
+                ]
+            },
+//Forbidden Jungle
+			{
+                "name": "Forbidden Jungle",
+                "sections": [
+					{
+                        "name": "Power Cell (Connect the Eco Beams)",
+						"access_rules": ["CanFight","$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Get to the Top of the Temple)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Jungle Elevator",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Find the Blue Vent Switch)",
+                        "access_rules": ["[Elevator]"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Blue Eco Switch",
+                        "access_rules": ["[Elevator]"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Defeat the Dark Eco Plant)",
+						"access_rules": ["Elevator,BlueSwitch,CanFight","Elevator,BlueSwitch,$no_rando","Punch,PunchUppercut,JumpKick,[OutofLogic]","$no_rando,[OutofLogic]"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Catch 200 lbs of Fish)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Boat Keys (Catch 200 lbs of Fish)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Follow the Canyon to the Sea)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Open the Locked Temple Door)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Orb Cache in Forbidden Jungle (River)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Scout Fly (End of Path)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Behind Lurker Machine)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Near Dark Eco Boxes (River))",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (End of River)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Around Temple Spire)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Top of Temple)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Spiral of Stumps)",
+                        "access_rules": ["[$flybox]"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Orb Bundle",
+                        "visibility_rules": "Orbsanity_Level",
+                        "access_rules": ["$level_orbs_accessible|FJ"],
+                        "item_count": 150
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 262,
+                        "y": 695,
+						"size": 10
+                    }
+                ]
+            } 
+		]			
+    },
+//Misty Island
+	{
+        "name": "Misty Island",
+        "children": [
+            {
+                "name": "Misty Island",
+                "access_rules": ["Boat"],
+                "sections": [
+					{
+                        "name": "Power Cell (Catch the Sculptor's Muse)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Climb the Lurker Ship)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Stop the Cannon)",
+                        "access_rules": ["[CanFight]"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Dark Eco Pool)",
+                        "access_rules": ["[CanFight]"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Destroy Balloon Lurkers)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Zoomer Power Cell)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Blue Eco Power Cell)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Orb Cache on Misty Island (Near Arena Exit)",
+                        "access_rules": ["[CanFight]"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Scout Fly (Overlooking Entrance)",
+                        "access_rules": ["[$flybox]"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Zoomer Ramps)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Ship)",
+						"access_rules": ["[$flybox]","$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Ledge Near Arena Exit)",
+						"access_rules": ["[Crouch],[CrouchJump]","[JumpDive]","$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Barrel Ramps)",
+                        "access_rules": ["[$flybox]","$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Ledge Near Arena Entrance)",
+                        "access_rules": ["[$flybox]","$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Near Arena Door)",
+                        "access_rules": ["[$flybox]","$no_rando"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Orb Bundle",
+                        "visibility_rules": "Orbsanity_Level",
+                        "access_rules": ["[$level_orbs_accessible|MI]"],
+                        "item_count": 150
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 290,
+                        "y": 808,
+						"size": 10
+                    }
+                ]
+            }
+
+        ]
+    },
+//Fire Canyon
+	{
+        "name": "Fire Canyon",
+        "children": [
+            {
+                "name": "Fire Canyon",
+				"access_rules": ["$cell_gate|1"],
+                "sections": [
+					{
+                        "name": "Power Cell (Reach the End of Fire Canyon)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Scout Fly",
+                        "item_count": 7
+                    },
+                    {
+                        "name": "Orb Bundle",
+                        "visibility_rules": "Orbsanity_Level",
+                        "access_rules": ["$cell_gate|1"],
+                        "item_count": 50
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 335,
+                        "y": 630,
+						"size": 10
+                    }
+                ]
+            }
+		]
+	},
+//Secondary Area
+	{
+        "name": "Secondary Area - Rock Village Region",
+        "access_rules": ["$cell_gate|1"],
+		"children": [
+//Rock Village
+			{
+                "name": "Rock Village",               
+                "sections": [
+					{
+                        "name": "Power Cell (90 Orbs to the Gambler)",
+						"access_rules": ["[$orb_trades]"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (90 Orbs to the Geologist)",
+						"access_rules": ["[$orb_trades]"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (90 Orbs to the Warrior)",
+						"access_rules": ["[$orb_trades]"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (120 Orbs to the Oracle)",
+						"access_rules": ["[$orb_trades]"],
+                        "item_count": 2
+                    },
+					{
+                        "name": "Warrior's Pontoons",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Orb Cache in Rock Village (by Oracle)",
+                        "access_rules": ["[Roll],[RollJump]"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Scout Fly (Behind Geologist)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Behind Fiery Boulder)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Boggy Swamp Entrance)",
+                        "access_rules": ["[Pontoons]"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Behind Sage's Hut)",
+						"access_rules": ["$flybox","$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Near Waterfall)",
+						"access_rules": ["[$flybox]","$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Dock)",
+						"access_rules": ["[$flybox]","$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Pontoon Bridge)",
+						"access_rules": ["[$flybox]","$no_rando"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Orb Bundle",
+                        "visibility_rules": "Orbsanity_Level",
+                        "access_rules": ["$level_orbs_accessible|RV","Punch,PunchUppercut,JumpKick,[OutofLogic]","DoubleJump,[OutofLogic]"],
+                        "item_count": 50
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 395,
+                        "y": 585,
+						"size": 10
+                    }
+                ]
+            },
+//Precursor Basin
+            {
+                "name": "Precursor Basin",               
+                "sections": [
+					{
+                        "name": "Power Cell (Herd the Moles)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Catch the Flying Lurkers)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Beat the Gorge Record Time)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Get the Power Cell Over the Lake)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Cure Dark Eco Infected Plants)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Navigate the Purple Precursor Rings)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Navigate the Blue Precursor Rings)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Scout Fly",
+                        "item_count": 7
+                    },
+                    {
+                        "name": "Orb Bundle",
+                        "visibility_rules": "Orbsanity_Level",
+                        "access_rules": ["$cell_gate|1"],
+                        "item_count": 200
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 130,
+                        "y": 342,
+						"size": 10
+                    }
+                ]
+            },
+//Boggy Swamp
+            {
+                "name": "Boggy Swamp",
+                "access_rules": ["$cell_gate|1,[Pontoons]"],
+                "sections": [
+					{
+                        "name": "Power Cell (Ride the Flut Flut)",
+						"access_rules": ["FlutFlut,$any_uppies","Crouch,CrouchJump,JumpKick,[OutofLogic]","Roll,RollJump,JumpDive,JumpKick,[OutofLogic]","Punch,PunchUppercut,[OutofLogic]"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Break the Zeppelin Tether 1)",
+                        "access_rules": ["[$tiny_uppies]","$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Break the Zeppelin Tether 2)",
+                        "access_rules": ["[$any_uppies]","$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Break the Zeppelin Tether 3)",
+                        "access_rules": ["[$tiny_uppies]","$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Break the Zeppelin Tether 4)",
+                        "access_rules": ["$any_uppies","$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Protect Farthy's Snacks)",
+                        "access_rules": ["[$tiny_uppies]","$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Defeat the Lurker Ambush)",
+						"access_rules": ["$no_rando","[$tiny_uppies],[CanFight]"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Scout Fly (Near Entrance)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Over First Jump Pad)",
+                        "access_rules": ["[$tiny_uppies]","$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Over Second Jump Pad)",  
+                        "access_rules": ["[$tiny_uppies]","$no_rando"],                   
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Across Black Swamp)",
+                        "access_rules": ["[$some_uppies]","$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Overlooking Flut Flut)",
+						"access_rules": ["FlutFlut,$any_uppies","Punch,PunchUppercut,[OutofLogic]","DoubleJump,[OutofLogic]","Crouch,CrouchJump,[OutofLogic]","Roll,RollJump,[OutofLogic]"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (on Flut Flut Platforms)",
+						"access_rules": ["FlutFlut,$any_uppies","Punch,PunchUppercut,[OutofLogic]","DoubleJump,[OutofLogic]","Roll,RollJump,[OutofLogic]","Crouch,CrouchJump,[OutofLogic]"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (in Field of Boxes)",
+                        "access_rules": ["[$any_uppies],[$tiny_uppies]","$no_rando"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Orb Bundle",
+                        "visibility_rules": "Orbsanity_Level",
+                        "access_rules": ["$level_orbs_accessible|BS","FlutFlut,[OutofLogic]","Roll,RollJump,[OutofLogic]","Punch,PunchUppercut,[OutofLogic]"],
+                        "item_count": 200
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 460,
+                        "y": 484,
+						"size": 10
+                    }
+				]
+			},
+//Lost Precursor City
+			{
+                "name": "Lost Precursor City",
+                "sections": [
+					{
+                        "name": "Power Cell (Raise the Chamber)",
+						"access_rules": ["JumpDive,$some_uppies","$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Follow the Colored Pipes)",
+						"access_rules": ["JumpDive","$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Reach the Bottom of the City)",
+                        "access_rules": ["[$some_uppies]","$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Quickly Cross the Dangerous Pool)",
+						"access_rules": ["JumpDive","Punch,PunchUppercut,JumpKick,[OutofLogic]","DoubleJump,Jumpkick,[OutofLogic]","$no_rando"],						
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Match the Platform Colors)",
+                        "access_rules": ["[CanFight]","$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Climb the Slide Tube)",
+                        "access_rules": ["[$some_uppies],[CanFight]","[$some_uppies],[DoubleJump]","$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Reach the Center of the Complex)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Orb Cache First Sunken Chamber",
+                        "access_rules": ["[JumpDive],[DoubleJump]"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Orb Cache Second Sunken Chamber",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (First Room)",
+						"access_rules": ["[$flybox]","$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Before Second Room)",
+						"access_rules": ["[$flybox]","$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Second Room, Green Pipe)",
+						"access_rules": ["JumpDive","$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Second Room, Blue Pipe)",
+						"access_rules": ["JumpDive","$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Second Room, on Path to Cell)",
+						"access_rules": ["$flybox","$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Second Room, Near Orb Vent)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Across Steam Vents)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Orb Bundle",
+                        "visibility_rules": "Orbsanity_Level",
+                        "access_rules": ["[$level_orbs_accessible|LPC]"],
+                        "item_count": 200
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 495,
+                        "y": 560,
+						"size": 10
+                    }
+                ]
+            }
+		]			
+    },
+//Klaww
+	{
+        "name": "Klaww",
+        "children": [
+            {
+                "name": "Klaww",
+				"access_rules": ["$cell_gate|1,$cell_gate|2,Pontoons,$punch_for_klaww,$over_and_over_and_uppies","$cell_gate|1,[OutofLogic]"],
+                "sections": [
+                    {
+                        "name": "Power Cell (Defeat Klaww)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 295,
+                        "y": 340,
+						"size": 10
+                    }
+                ]
+            }
+		]
+	},
+//Mountain Pass
+	{
+        "name": "Mountain Pass",
+        "children": [
+            {
+                "name": "Mountain Pass",
+				"access_rules": ["$cell_gate|1,$cell_gate|2,Pontoons,$punch_for_klaww,$over_and_over_and_uppies","$cell_gate|1,[OutofLogic]"],
+                "sections": [
+					{
+                        "name": "Power Cell (Reach the End of Mountain Pass)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Find the Hidden Power Cell)",
+						"access_rules": ["Crouch,CrouchJump,JumpKick,[OutofLogic]","DoubleJump,Jumpkick,[OutofLogic]","JumpDive,JumpKick,[OutofLogic]","YellowSwitch","[OutofLogic]"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Scout Fly",
+                        "item_count": 7
+                    },
+                    {
+                        "name": "Orb Bundle",
+                        "visibility_rules": "Orbsanity_Level",
+                        "access_rules": ["$level_orbs_accessible|MP"],
+                        "item_count": 50
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 335,
+                        "y": 216,
+						"size": 10
+                    }
+                ]
+            }
+		]
+	},
+//Tertiary Area
+		{
+        "name": "Tertiary Area - Volcanic Crater Region",
+        "access_rules": ["$cell_gate|1,$cell_gate|2,Pontoons,$punch_for_klaww,$over_and_over_and_uppies","$cell_gate|1,[OutofLogic]"],
+        "children": [
+//Volcanic Crater
+			{
+                "name": "Volcanic Crater",               
+                "sections": [
+
+                    {
+                        "name": "Power Cell (90 Orbs to the Miners)",
+						"access_rules": ["[$orb_trades]"],
+                        "item_count": 4
+                    },
+					{
+                        "name": "Power Cell (120 Orbs to the Oracle)",
+						"access_rules": ["[$orb_trades]"],
+                        "item_count": 2
+                    },
+					{
+                        "name": "Power Cell (Find the Hidden Power Cell)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Scout Fly",
+						"access_rules": ["$flybox","$no_rando"],
+                        "item_count": 7
+                    },
+                    {
+                        "name": "Orb Bundle",
+                        "visibility_rules": "Orbsanity_Level",
+                        "access_rules": ["$level_orbs_accessible|VC","$cell_gate|1,[OutofLogic]"],
+                        "item_count": 50
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 595,
+                        "y": 490,
+						"size": 10
+                    }
+                ]
+            },
+//Spider Cave
+            {
+                "name": "Spider Cave",               
+                "sections": [
+					{
+                        "name": "Power Cell (Shoot the Gnawing Lurkers)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Destroy the Dark Eco Crystals)",
+						"access_rules": ["[CanFight],[Roll],[RollJump]","$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Explore the Dark Cave)",
+						"access_rules": ["DoubleJump,[CanFight]","Crouch,CrouchJump,[CanFight]","JumpDive,[OutofLogic]","$no_rando"],				
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Climb the Giant Robot)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Launch to the Poles)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Navigate the Spider Tunnel)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Climb the Precursor Platforms)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Scout Fly (Near Dark Cave Entrance)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Main Cave, Overlooking Entrance)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Main Cave, Near Dark Crystal)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Main Cave, Near Robot Cave Entrance)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Dark Cave)",
+						"access_rules": ["DoubleJump,$flybox,[CanFight]","CrouchJump,$flybox,[CanFight]","JumpDive,[OutofLogic]","$no_rando"],						
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Robot Cave, at Bottom Level)",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Robot Cave, at Top Level)",						
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Orb Bundle",
+                        "visibility_rules": "Orbsanity_Level",
+                        "access_rules": ["$level_orbs_accessible|SC"],
+                        "item_count": 200
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 642,
+                        "y": 440,
+						"size": 10
+                    }
+                ]
+            },
+//Snowy Mountain
+            {
+                "name": "Snowy Mountain",
+                "sections": [
+
+                    {					
+                        "name": "Gondola Press Circle",
+                    },
+					{
+                        "name": "Power Cell (Find the Yellow Vent Switch)",
+						"access_rules": ["FlutFlut,Gondola,[OutofLogic]","Punch,PunchUppercut,JumpKick,Gondola[OutofLogic]","$long_jumps,Gondola"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Yellow Eco Switch",
+                        "access_rules": ["FlutFlut,Gondola,[OutofLogic]","Punch,PunchUppercut,JumpKick,Gondola[OutofLogic]","$long_jumps,Gondola"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Stop the 3 Lurker Glacier Troops)",
+						"access_rules": ["CanFight,Gondola,[$long_jumps]","$no_rando,Gondola"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Deactivate the Precursor Blockers)",
+						"access_rules": ["$long_jumps,$any_uppies,Gondola","$long_jumps,JumpDive,Gondola","$no_rando,Gondola","FlutFlut,Gondola,[OutofLogic]","$no_rando,Gondola"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Open the Frozen Crate)",
+						"access_rules": ["$long_jumps,YellowSwitch,Gondola","$no_rando,YellowSwitch,Gondola","FlutFlut,Gondola,[OutofLogic]"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Get Through the Lurker Fort)",
+						"access_rules": ["$long_jumps,DoubleJump,FortGate,Gondola","$long_jumps,Punch,PunchUppercut,FortGate,Gondola","$no_rando,FortGate,Gondola","DoubleJump,JumpKick,Gondola,[OutofLogic]","FlutFlut,Gondola,[OutofLogic]","Crouch,CrouchJump,Jumpkick,Gondola,[OutofLogic]"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Open the Lurker Fort Gate)",
+                        "access_rules": ["Gondola,[OutofLogic]","$long_jumps,FlutFlut,Gondola","$no_rando,FlutFlut,Gondola"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Open the Lurker Fort Gate",
+                        "access_rules": ["Gondola,[OutofLogic]","$long_jumps,FlutFlut,Gondola","$no_rando,FlutFlut,Gondola"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Survive the Lurker Infested Cave)",
+						"access_rules": ["$long_jumps,CanFight,DoubleJump,Gondola","$long_jumps,CanFight,Crouch,CrouchJump,Gondola","$no_rando,Gondola"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Orb Cache in Snowy Fort",
+						"access_rules": ["$long_jumps,FortGate,Gondola","$no_rando,FortGate,Gondola","DoubleJump,JumpKick,Gondola,[OutofLogic]","FlutFlut,Gondola,[OutofLogic]"],
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Scout Fly (Near Entrance)",
+						"access_rules": ["$flybox,Gondola","FlutFlut,Gondola,[OutofLogic]","$no_rando,Gondola"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Near Frozen Box)",
+						"access_rules": ["$long_jumps,$flybox,Gondola","FlutFlut,Gondola,[OutofLogic]","$no_rando,Gondola"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Cliff Near Flut Flut)",
+						"access_rules": ["$long_jumps,$flybox,Gondola","FlutFlut,Gondola,[OutofLogic]","$no_rando,Gondola"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Near Yellow Eco Switch)",
+						"access_rules": ["$long_jumps,$flybox,Gondola","FlutFlut,Gondola,[OutofLogic]","$no_rando,Gondola"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Under Bridge to Fort)",
+						"access_rules": ["$long_jumps,$flybox,Gondola","FlutFlut,Gondola,[OutofLogic]","$no_rando,Gondola"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Top of Fort Tower)",
+						"access_rules": ["FlutFlut,Gondola,[OutofLogic]","Crouch,CrouchJump,Jumpkick,Gondola,[OutofLogic]","DoubleJump,JumpKick,Gondola,[OutofLogic]","Punch,PunchUppercut,JumpKick,Gondola,[OutofLogic]","JumpDive,Gondola,Fortgate,[OutofLogic]","$no_rando,FortGate,Gondola","$long_jumps,Fortgate,Gondola"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Top of Fort)",
+						"access_rules": ["FlutFlut,Gondola,[OutofLogic]","$long_jumps,FortGate,DoubleJump,Gondola","$long_jumps,FortGate,Crouch,CrouchJump,Gondola","$no_rando,FortGate,Gondola","DoubleJump,JumpKick,Gondola,[OutofLogic]","Crouch,CrouchJump,Jumpkick,Gondola,[OutofLogic]","Punch,PunchUppercut,JumpKick,Gondola,[OutofLogic]"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Orb Bundle",
+                        "visibility_rules": "Orbsanity_Level",
+                        "access_rules": ["$level_orbs_accessible|SM","FlutFlut,Gondola,[OutofLogic]"],
+                        "item_count": 200
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 420,
+                        "y": 190,
+						"size": 10
+                    }
+				]
+			}
+        ]
+    },
+//Lava Tube
+	{
+        "name": "Lava Tube",
+	"access_rules": ["$cell_gate|1,$cell_gate|2,Pontoons,$punch_for_klaww,$over_and_over_and_uppies,$cell_gate|3","$cell_gate|3,[OutofLogic]"],
+        "children": [
+            {
+                "name": "Lava Tube",
+                "sections": [
+					{
+                        "name": "Power Cell (Reach the End of Lava Tube)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Scout Fly",
+                        "item_count": 7
+                    },
+                    {
+                        "name": "Orb Bundle",
+                        "visibility_rules": "Orbsanity_Level",
+                        "access_rules": ["$level_orbs_accessible|LT"],
+                        "item_count": 50
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 660,
+                        "y": 342,
+						"size": 10
+                    }
+                ]
+            }
+		]
+	},
+//Gol and Maia's Citadel
+	{
+        "name": "Gol and Maia's Citadel",
+        "access_rules": ["$cell_gate|1,$cell_gate|2,Pontoons,$punch_for_klaww,$over_and_over_and_uppies,$cell_gate|3","$cell_gate|3,[OutofLogic]"],
+        "children": [
+            {
+                "name": "Gol and Maia's Citadel",
+                "sections": [
+					{
+                        "name": "Power Cell (Free the Blue Sage)",
+						"access_rules": ["JumpDive,CanFight,$stair_uppies,DoubleJump,JumpKick,","JumpDive,CanFight,$stair_uppies,Roll,RollJump","$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Blue Sage Freed",
+						"access_rules": ["JumpDive,CanFight,$stair_uppies,DoubleJump,JumpKick,","JumpDive,CanFight,$stair_uppies,Roll,RollJump","$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Free the Red Sage)",
+						"access_rules": ["JumpDive,CanFight,$stair_uppies,DoubleJump,JumpKick,","JumpDive,CanFight,$stair_uppies,Roll,RollJump","$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Red Sage Freed",
+						"access_rules": ["JumpDive,CanFight,$stair_uppies,DoubleJump,JumpKick,","JumpDive,CanFight,$stair_uppies,Roll,RollJump","$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Free the Yellow Sage)",
+                        "access_rules": ["JumpDive,CanFight,$some_uppies,DoubleJump,JumpKick",",CanFight,Roll,RollJump","$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Yellow Sage Freed",
+                        "access_rules": ["JumpDive,CanFight,$some_uppies,DoubleJump,JumpKick",",CanFight,Roll,RollJump","$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Power Cell (Free the Green Sage)",
+						"access_rules": ["SagesFreed: 3,JumpDive,$over_and_uppies,CanFight","SagesFreed: 3,Roll,RollJump,$over_and_uppies,CanFight","Punch,PunchUppercut,JumpKick,DoubleJump{OutofLogic]","SagesFreed: 3,$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Green Sage Freed",
+                        "access_rules": ["SagesFreed: 3,JumpDive,$over_and_uppies,CanFight","SagesFreed: 3,Roll,RollJump,$over_and_uppies,CanFight","Punch,PunchUppercut,JumpKick,DoubleJump{OutofLogic]","SagesFreed: 3,$no_rando"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Orb Cache at Start of Launch Pad Room",					
+                        "item_count": 1
+                    },
+                   {
+                        "name": "Orb Cache at End of Launch Pad Room",					
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Orb Cache at End of Blast Furnace",
+						"access_rules": ["JumpDive,CanFight,$stair_uppies,DoubleJump,JumpKick,","JumpDive,CanFight,$stair_uppies,Roll,RollJump","$no_rando"],						
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Scout Fly (Entrance)",
+						"access_rules": ["$flybox","$no_rando"],						
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Main Room, Right of Robot)",
+						"access_rules": ["JumpDive","Roll,RollJump,$flybox","$no_rando"],						
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Launch Pad Room)",						
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Main Room, Left of Robot)",
+						"access_rules": ["DoubleJump,$flybox","JumpKick,$flybox","Punch,PunchUppercut","$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Blast Furnace)",
+						"access_rules": ["JumpDive,CanFight,$some_uppies,DoubleJump,JumpKick","CanFight,Roll,RollJump,$flybox","$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Before Jumping Lurkers)",
+						"access_rules": ["JumpDive,CanFight,$some_uppies,DoubleJump,JumpKick","Roll,RollJump,CanFight,$some_uppies,DoubleJump,JumpKick,$flybox","$no_rando"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Scout Fly (Top of Rotating Tower)",
+						"access_rules": ["SagesFreed: 3,JumpDive,$stair_uppies","SagesFreed: 3,Roll,RollJump,$stair_uppies","SagesFreed:3,$no_rando","Punch,PunchUppercut,JumpKick,DoubleJump{OutofLogic]"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Orb Bundle",
+                        "visibility_rules": "Orbsanity_Level",
+                        "access_rules": ["SagesFreed: 3,JumpDive,$over_and_uppies,CanFight","SagesFreed: 3,Roll,RollJump,$over_and_uppies,CanFight","Punch,PunchUppercut,JumpKick,DoubleJump{OutofLogic]","SagesFreed: 3,$no_rando"],
+                        "item_count": 200
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 572,
+                        "y": 44,
+						"size": 10
+                    }
+                ]
+            }
+		]
+	},
+//Dark Eco Silo
+	{
+        "name": "Dark Eco Silo",
+        "access_rules": ["SagesFreed: 3,FreedGreen,CanFight,DoubleJump,$cell_gate|3,Pontoons","SagesFreed: 3,FreedGreen,CanFight,JumpDive,$cell_gate|3,Pontoons","SagesFreed: 3,FreedGreen,CanFight,Crouch,CrouchJump,$cell_gate|3,Pontoons","SagesFreed: 3,FreedGreen,CanFight,Crouch,CrouchUppercut,$cell_gate|3,Pontoons","SagesFreed: 3,FreedGreen,$no_rando,$cell_gate|3,Pontoons","SagesFreed: 3,FreedGreen,$cell_gate|3,{OutofLogic]"],
+        "children": [
+            {
+                "name": "Dark Eco Silo",
+                "sections": [
+					{
+                        "name": "Defeat Gol and Maia",
+                        "access_rules": ["SagesFreed: 3,FreedGreen,CanFight,DoubleJump,$cell_gate|3,Pontoons","SagesFreed: 3,FreedGreen,CanFight,JumpDive,$cell_gate|3,Pontoons","SagesFreed: 3,FreedGreen,CanFight,Crouch,CrouchJump,$cell_gate|3,Pontoons","SagesFreed: 3,FreedGreen,CanFight,Crouch,CrouchUppercut,$cell_gate|3,Pontoons","SagesFreed: 3,FreedGreen,$no_rando,$cell_gate|3,Pontoons","SagesFreed: 3,FreedGreen,$cell_gate|3,Punch,PunchUppercut,JumpKick,DoubleJump{OutofLogic]"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 630,
+                        "y": 90,
+						"size": 10
+                    }
+                ]
+            }
+		]
+	},
+//Scout Flies
+	{
+        "name": "Power Cell (7 Scout Flies)",
+        "children": [
+            {
+                "name": "Power Cell (7 Scout Flies)",
+                "sections": [
+					{
+                        "name": "Geyser Rock",
+						"access_rules": ["SF_GR:7"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Sandover Village",
+						"access_rules": ["SF_SV:7"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Sentinel Beach",
+						"access_rules": ["SF_SB:7"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Forbidden Jungle",
+						"access_rules": ["SF_FJ:7"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Misty Island",
+						"access_rules": ["SF_MI:7"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Fire Canyon",
+						"access_rules": ["SF_FC:7"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Rock Village",
+						"access_rules": ["SF_RV:7"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Precursor Basin",
+						"access_rules": ["SF_PB:7"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Boggy Swamp",
+						"access_rules": ["SF_BS:7"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Lost Precursor City",
+						"access_rules": ["SF_LPC:7"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Mountain Pass",
+						"access_rules": ["SF_MP:7"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Volcanic Crater",
+						"access_rules": ["SF_VC:7"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Spider Cave",
+						"access_rules": ["SF_SC:7"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Snowy Mountain",
+						"access_rules": ["SF_SM:7"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Lava Tube",
+						"access_rules": ["SF_LT:7"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Gol and Maia's Citadel",
+						"access_rules": ["SF_GMC:7"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 30,
+                        "y": 90,
+						"size": 10
+                    }
+                ]
+            }
+		]
+	},
+//Global Orbs
+    {
+        "name": "Global Precursor Orb Bundles",
+        "children": [
+            {
+                "name": "Global Precursor Orb Bundles",
+                "access_rules": ["$global_orbs_accessible"],
+                "sections": [
+                    {
+                        "name": "Orb Bundle",
+                        "clear_as_group": false,
+                        "visibility_rules": "Orbsanity_Global",
+                        "item_count": 2000
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 30,
+                        "y": 180,
+                        "size": 10
+                    }
+                ]
+            }
+        ]
+    }
+]			
