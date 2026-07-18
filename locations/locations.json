@@ -1039,12 +1039,12 @@
                     },
 					{
                         "name": "Scout Fly (Top of Fort Tower)",
-						"access_rules": ["FlutFlut,Gondola","Crouch,CrouchJump,Gondola","DoubleJump,Gondola","Punch,PunchUppercut,JumpKick,Gondola","JumpDive,Gondola","$no_rando,FortGate,Gondola"],
+						"access_rules": ["FlutFlut,Gondola,[OutofLogic]","Crouch,CrouchJump,Jumpkick,Gondola,[OutofLogic]","DoubleJump,JumpKick,Gondola,[OutofLogic]","Punch,PunchUppercut,JumpKick,Gondola,[OutofLogic]","JumpDive,Gondola,Fortgate,[OutofLogic]","$no_rando,FortGate,Gondola","$long_jumps,Fortgate,Gondola"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly (Top of Fort)",
-						"access_rules": ["FlutFlut,Gondola,[OutofLogic]","$long_jumps,FortGate,DoubleJump,Gondola","$long_jumps,FortGate,Crouch,CrouchJump,Gondola","$no_rando,FortGate,Gondola"],
+						"access_rules": ["FlutFlut,Gondola,[OutofLogic]","$long_jumps,FortGate,DoubleJump,Gondola","$long_jumps,FortGate,Crouch,CrouchJump,Gondola","$no_rando,FortGate,Gondola","DoubleJump,JumpKick,Gondola,[OutofLogic]","Crouch,CrouchJump,Jumpkick,Gondola,[OutofLogic]","Punch,PunchUppercut,JumpKick,Gondola,[OutofLogic]"],
                         "item_count": 1
                     },
                     {
