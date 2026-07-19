@@ -182,7 +182,7 @@
                     },
 					{
                         "name": "Scout Fly (Sentinel)",
-						"access_rules": ["BlueSwitch","$flybox","Punch,[OutofLogic]","Roll,RollJump,[OutofLogic]","$no_rando","Punch,PunchUppercut,[OutofLogic]"],
+						"access_rules": ["BlueSwitch","$flybox","Punch,[OutofLogic]","Roll,RollJump,[OutofLogic]","$no_rando","Punch,PunchUppercut,[OutofLogic]","Punch,[OutofLogic]"],
                         "item_count": 1
                     },
 					{
@@ -192,7 +192,7 @@
                     },
 					{
                         "name": "Scout Fly (Overlooking Blue Eco Vent)",
-						"access_rules": ["BlueSwitch","$log_moves,$flybox","JumpDive,[OutofLogic]","Crouch,CrouchJump,$flybox,[OutofLogic]","$no_rando"],
+						"access_rules": ["BlueSwitch","$log_moves,$flybox","JumpDive,[OutofLogic]","Crouch,CrouchJump,$flybox,[OutofLogic]","$no_rando","Punch,[OutofLogic]"],
                         "item_count": 1
                     },
                     {
@@ -240,7 +240,7 @@
                     },
 					{
                         "name": "Power Cell (Defeat the Dark Eco Plant)",
-						"access_rules": ["Elevator,BlueSwitch,CanFight","Elevator,BlueSwitch,$no_rando","Punch,PunchUppercut,JumpKick,[OutofLogic]","$no_rando,[OutofLogic]","BlueSwitch,CanFight,[OutofLogic]"],
+						"access_rules": ["[Elevator],BlueSwitch,CanFight","[Elevator],BlueSwitch,$no_rando","Punch,PunchUppercut,JumpKick,[OutofLogic]","$no_rando,[OutofLogic]"],
                         "item_count": 1
                     },
 					{
@@ -738,7 +738,7 @@
                     },
 					{
                         "name": "Scout Fly (Second Room, on Path to Cell)",
-						"access_rules": ["$flybox","$no_rando"],
+						"access_rules": ["[$flybox]","$no_rando"],
                         "item_count": 1
                     },
 					{
