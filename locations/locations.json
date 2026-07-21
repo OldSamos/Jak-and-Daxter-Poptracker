@@ -640,12 +640,12 @@
                     },
 					{
                         "name": "Scout Fly (Overlooking Flut Flut)",
-						"access_rules": ["FlutFlut,$any_uppies","Punch,PunchUppercut,[OutofLogic]","DoubleJump,[OutofLogic]","Crouch,CrouchJump,[OutofLogic]","Roll,RollJump,[OutofLogic]"],
+						"access_rules": ["FlutFlut,$any_uppies","Punch,PunchUppercut,[OutofLogic]","DoubleJump,[OutofLogic]","Crouch,CrouchJump,[OutofLogic]","Roll,RollJump,[OutofLogic]","JumpDive,[OutofLogic]"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly (on Flut Flut Platforms)",
-						"access_rules": ["FlutFlut,$any_uppies","Punch,PunchUppercut,[OutofLogic]","DoubleJump,[OutofLogic]","Roll,RollJump,[OutofLogic]","Crouch,CrouchJump,[OutofLogic]"],
+						"access_rules": ["FlutFlut,$any_uppies","Punch,PunchUppercut,[OutofLogic]","DoubleJump,[OutofLogic]","Roll,RollJump,[OutofLogic]","Crouch,CrouchJump,[OutofLogic]","JumpDive,[OutofLogic]"],
                         "item_count": 1
                     },
 					{
