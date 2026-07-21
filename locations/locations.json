@@ -60,7 +60,7 @@
                     },
 					{
                         "name": "Power Cell (120 Orbs to the Oracle)",
-						"access_rules": ["[$orb_trades],$long_jumps","[$orb_trades],$no_rando"],
+						"access_rules": ["[$orb_trades],$long_jumps","[$orb_trades],$no_rando","[$orb_trades],DoubleJump,[OutofLogic]","[orb_trades],Crouch,CrouchJump,[OutofLogic]","[$orb_trades],CrouchJump,[OutofLogic]"],
                         "item_count": 2
                     },
 					{
@@ -121,7 +121,7 @@
                 "sections": [
 					{
                         "name": "Power Cell (Unblock the Eco Harvesters)",
-						"access_rules": ["CanFight","$no_rando"],
+						"access_rules": ["CanFight","$no_rando","Roll,RollJump,[OutofLogic]"],
                         "item_count": 1
                     },
 					{
@@ -606,7 +606,7 @@
                     },
 					{
                         "name": "Power Cell (Break the Zeppelin Tether 4)",
-                        "access_rules": ["$any_uppies","$no_rando"],
+                        "access_rules": ["[$any_uppies]","$no_rando"],
                         "item_count": 1
                     },
 					{
