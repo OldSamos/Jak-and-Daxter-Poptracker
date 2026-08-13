@@ -1,0 +1,341 @@
+[
+    {
+        "name": "Orbs",
+        "children": [
+//Start Area
+            {
+                "name": "GR",               
+                "sections": [
+                    {
+                        "name": "Main",
+                        "item_count": 48
+                    },
+                    {
+                        "name": "Power Cell Cliff",
+						"access_rules": ["$over_and_uppies","$no_rando"],
+                        "item_count": 2
+                    }
+                ]
+            },
+            {
+                "name": "SV",          
+                "sections": [
+                    {
+                        "name": "Main",
+                        "item_count": 26
+                    },
+                    {
+                        "name": "Cache Cliff",
+                        "access_rules": ["[$tiny_uppies]","$no_rando"],
+                        "item_count": 15
+                    },
+                    {
+                        "name": "Yakow Cliff",
+                        "access_rules": ["[$over_and_over_and_uppies]","$no_rando"],
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Oracle Platform",
+                        "access_rules": ["[$long_jumps]","$no_rando"],
+                        "item_count": 6
+                    }
+                ]
+            },
+            {
+                "name": "SB",             
+                "sections": [
+                    {
+                        "name": "Main",
+                        "item_count": 128
+                    },
+                    {
+                        "name": "Green Ridge",
+                        "access_rules": ["$tiny_uppies","$no_rando"],
+                        "item_count": 5
+                    },
+                    {
+                        "name": "Blue Ridge",
+                        "access_rules": ["BlueSwitch,$no_rando","BlueSwitch,$log_moves"],
+                        "item_count": 5
+                    },
+                    {
+                        "name": "Cannon Pillars",
+                        "access_rules": ["BlueSwitch"],
+                        "item_count": 12
+                    }
+                ]
+            },
+            {
+                "name": "FJ",            
+                "sections": [
+                    {
+                        "name": "Main",  //combines Main, River, Lurker Machine, Temple Exit, Temple Exterior
+                        "item_count": 94
+                    },
+                    {
+                        "name": "Post Jungle Elevator",
+                        "access_rules": ["Elevator","[OutofLogic]"],
+                        "item_count": 17
+                    },
+                    {
+                        "name": "Post Jungle Elevator with Eco",
+                        "access_rules": ["Elevator,BlueSwitch","Punch,PunchUppercut,JumpKick,[OutofLogic]"],
+                        "item_count": 34
+                    },
+                    {
+                        "name": "Post Dark Eco Plant",
+                        "access_rules": ["Elevator,BlueSwitch,CanFight","Elevator,BlueSwitch,$no_rando","Punch,PunchUppercut,JumpKick,[OutofLogic]"],
+                        "item_count": 5
+                    }
+                ]
+            },
+//Misty Island
+            {
+                "name": "MI",
+                "access_rules": ["Boat"],             
+                "sections": [
+                    {
+                        "name": "Main", //combines Main, Muse Course, Zoomer, Ship, Far Side, Barrel Course, Lower Approach,
+                        "item_count": 105
+                    },
+                    {
+                        "name": "See Saw Orbs", //combines Far Side Cliff
+                        "access_rules": ["JumpDive","Crouch,CrouchJump","$no_rando"],
+                        "item_count": 5
+                    },
+                    {
+                        "name": "Arena", //combines Silo Boxes, Arena, Upper Approach, Orb Cache
+                        "access_rules": ["CanFight","$no_rando"],
+                        "item_count": 40
+                    }
+                ]
+            },
+//Fire Canyon
+            {
+                "name": "FC",
+                "access_rules": ["$cell_gate|1"],             
+                "sections": [
+                    {
+                        "name": "Main",
+                        "item_count": 50
+                    }
+                ]
+            },
+//Secondary Area
+            {
+                "name": "RV", 
+                "access_rules": ["$cell_gate|1"],              
+                "sections": [
+                    {
+                        "name": "Main",
+                        "item_count": 23
+                    },
+                    {
+                        "name": "Orb Cache",
+                        "access_rules": ["[Roll],[RollJump]","$no_rando"],
+                        "item_count": 20
+                    },
+                    {
+                        "name": "Pontoons",
+                        "access_rules": ["Pontoons"],
+                        "item_count": 7
+                    }
+                ]
+            },
+            {
+                "name": "PB",
+                "access_rules": ["$cell_gate|1"],            
+                "sections": [
+                    {
+                        "name": "Main",
+                        "item_count": 200
+                    }
+                ]
+            },
+            {
+                "name": "BS",
+                "access_rules": ["$cell_gate|1,Pontoons"],             
+                "sections": [
+                    {
+                        "name": "Main",//combines Main
+                        "item_count": 23
+                    },
+                    {
+                        "name": "Gap Jumps",//combines First Bats, First Tether, First Pole Course, Second Bats, Fourth Jump Pad, Flut Flut Pad, Farthy's Snacks
+                        "access_rules": ["$tiny_uppies","$no_rando"],
+                        "item_count": 118
+                    }, 
+                    {
+                        "name": "High Jumps",//combines  Box Field, Last Tar Pit, Fourth Tether
+                        "access_rules": ["$any_uppies,$tiny_uppies","$no_rando"],
+                        "item_count": 33
+                    },   
+                    {
+                        "name": "Flut Flut Orbs",
+                        "access_rules": ["FlutFlut"],
+                        "item_count": 23
+                    },
+                    {
+                        "name": "Tether Pillars",//combines First Tether Rat Colony
+                        "access_rules": ["$long_jumps","$no_rando"],
+                        "item_count": 3
+                    }
+                ]
+            },
+            {
+                "name": "LPC",
+                "access_rules": ["$cell_gate|1"],             
+                "sections": [
+                    {
+                        "name": "Main",//combines Main, First Roop Upper, First Hallway, Second Room, Center Complex, Color Platforms, Quick Platforms, First Slide, Second Slide
+                        "item_count": 142
+                    },
+                    {
+                        "name": "Capsule Room Exterior",
+                        "access_rules": ["JumpDive","$no_rando"],
+                        "item_count": 6
+                    },
+                    {
+                        "name": "Helix Room",
+						"access_rules": ["$some_uppies,CanFight","$some_uppies,DoubleJump","$no_rando"],
+                        "item_count": 30
+                    },
+                    {
+                        "name": "Orb Cache in First Chamber",
+                        "access_rules": ["JumpDive,DoubleJump","$no_rando"],
+                        "item_count": 22
+                    }
+                ]
+            },
+//Mountain Pass
+            {
+                "name": "MP",
+                "access_rules": ["[$cell_gate|2],$no_rando,Pontoons","$cell_gate|2,$over_and_uppies,$punch_for_klaww,Pontoons"],             
+                "sections": [
+                    {
+                        "name": "Main",
+                        "item_count": 50
+                    }
+                ]
+            },
+//Tertiary Area
+            {
+                "name": "VC",
+                "access_rules": ["[$cell_gate|2],$no_rando,Pontoons","$cell_gate|2,$over_and_uppies,$punch_for_klaww,Pontoons"],               
+                "sections": [
+                    {
+                        "name": "Main",
+                        "item_count": 50
+                    }
+                ]
+            },
+            {
+                "name": "SC",
+                "access_rules": ["[$cell_gate|2],$no_rando","$cell_gate|2,$over_and_uppies,$punch_for_klaww"],            
+                "sections": [
+                    {
+                        "name": "Main",//combines Main, Scaffolding Level Zero, Pole Course, Spider Tunnel, 
+                        "item_count": 97
+                    },
+                    {
+                        "name": "Dark Cave",
+                        "access_rules": ["[CanFight],DoubleJump","[CanFight],Crouch,CrouchJump","$no_rando","JumpDive,[OutofLogic]"],
+                        "item_count": 5
+                    },
+                    {
+                        "name": "Spider Tunnel Crates",
+                        "access_rules": ["YellowSwitch","Roll,RollJump,[OutofLogic]"],
+                        "item_count": 12
+                    },
+                    {
+                        "name": "Robot Scaffolding Level One",
+                        "access_rules": ["[DoubleJump]","[JumpKick]","$no_rando"],
+                        "item_count": 53
+                    },
+                    {
+                        "name": "Robot Scaffolding Level Two and Three",
+                        "access_rules": ["[Can Fight]","$no_rando"],
+                        "item_count": 33
+                    }
+                ]
+            },
+            {
+                "name": "SM",
+                "access_rules": ["[$cell_gate|2],$no_rando,Gondola,$long_jumps","$cell_gate|2,$over_and_uppies,$punch_for_klaww,Gondola,$long_jumps"],             
+                "sections": [
+                    {
+                        "name": "Main",//Post gap, level entirely requires long jumps. Combines Snowball Canyon, Frozen Box Cave, Ice Skating Rink, Fort Exterior, Bunny Cave Start, Switch Cave
+                        "item_count": 94
+                    },
+                    {
+                        "name": "Precursor Blockers",//combines Blockers from all areas
+                        "access_rules": ["$any_uppies","JumpDive","$no_rando"],
+                        "item_count": 8
+                    },
+                    {
+                        "name": "Yellow Eco Orbs",//combines Frozen Box Cave Crates, 
+                        "access_rules": ["YellowSwitch","FlutFLut,[OutofLogic]","DoubleJump,[OutofLogic]","Crouch,CrouchJump,[OutofLogic]","Jumpdive,[OutofLogic]","Roll,RollJump,[OutofLogic]","CrouchJump,[OutofLogic]","Punch,PunchUppercut,JumpKick,[OutofLogic]"],
+                        "item_count": 8
+                    },
+                    {
+                        "name": "Flut Flut Orbs",
+                        "access_rules": ["Flut Flut"],
+                        "item_count": 15
+                    },
+                    {
+                        "name": "Lurker Infested Cave",
+                        "access_rules": ["$long_jumps,CanFight,DoubleJump","$long_jumps,CanFight,Crouch,CrouchJump","$no_rando"],
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Snowy Fort Orbs and Caches",//combines Fort Interior, Fort Interior Caches
+                        "access_rules": ["FortGate,$tiny_uppies","DoubleJump,JumpKick,[OutofLogic]","FlutFlut,[OutofLogic]"],
+                        "item_count": 70
+                    },
+                     {
+                        "name": "Snowy Fort Course End",
+                        "access_rules": ["FortGate,$some_uppies","DoubleJump,Jumpkick,[OutofLogic]","FlutFLut,[OutofLogic]"],
+                        "item_count": 2
+                    }
+                ]
+            },
+//Lava Tube
+            {
+                "name": "LT",
+                "access_rules": ["[$cell_gate|3],$no_rando,Pontoons","$cell_gate|3,$over_and_uppies,$punch_for_klaww,Pontoons"],             
+                "sections": [
+                    {
+                        "name": "Main",
+                        "item_count": 50
+                    }
+                ]
+            },
+//Gol and Maia's Citadel
+            {
+                "name": "GMC",
+                "access_rules": ["[$cell_gate|3],$no_rando,Pontoons","$cell_gate|3,$over_and_uppies,$punch_for_klaww,Pontoons"],             
+                "sections": [
+                    {
+                        "name": "Main",//combines Robot Scaffolding
+                        "item_count": 8
+                    },
+                    {
+                        "name": "Sage Rooms",//combines Jump Pad Room, Blast Furnace, Bunny Room, (Includes Caches)
+                        "access_rules": ["JumpDive,CanFight,$some_uppies","$some_uppies,CanFight,Roll,RollJump","$no_rando"],
+                        "item_count": 127
+                    },
+                    {
+                        "name": "Bunny Room",
+                        "access_rules": ["JumpDive,$stair_uppies","Roll,RollJump"],
+                        "item_count": 45
+                    },
+                    {
+                        "name": "Green Sage",//combines Rotating Tower
+                        "access_rules": ["SagesFreed: 3,JumpDive,$some_uppies,$stair_uppies,CanFight","SagesFreed: 3,Roll,RollJump,$some_uppies,$stair_uppies,CanFight","SagesFreed: 3,$no_rando"],
+                        "item_count": 20
+                    }
+                ]
+            }
+        ]
+    }
+]
