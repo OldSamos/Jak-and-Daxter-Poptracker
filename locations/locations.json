@@ -121,7 +121,7 @@
                 "sections": [
 					{
                         "name": "Power Cell (Unblock the Eco Harvesters)",
-						"access_rules": ["CanFight","$no_rando","Roll,RollJump,[OutofLogic]"],
+						"access_rules": ["CanFight","$no_rando","Roll,RollJump,[OutofLogic]","[Crouch],CrouchUppercut"],
                         "item_count": 1
                     },
 					{
