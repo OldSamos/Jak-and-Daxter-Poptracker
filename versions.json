@@ -1,17 +1,13 @@
 {
 	"versions": [
 		{
-			"package_version": "0.1.6",
-			"download_url": "https://github.com/OldSamos/Jak-and-Daxter-Poptracker/archive/refs/tags/0.1.6.zip"
-		},
-		{
-			"package_version": "0.1.5",
-			"download_url": "https://github.com/OldSamos/Jak-and-Daxter-Poptracker/archive/refs/tags/0.1.5.zip"
+			"package_version": "0.1.7",
+			"download_url": "https://github.com/OldSamos/Jak-and-Daxter-Poptracker/archive/refs/tags/0.1.7.zip",
+			"sha256": "71739e13d58dfe63595dfa8c35becab11496408128f74f5ddc1827b00078e1f1",
+			"changelog": ["Added Auto Pop Tracker updates"]
 		}
 	]
 }
-
-
 
 
 
