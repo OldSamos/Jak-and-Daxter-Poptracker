@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "0.1.8",
+			"download_url": "https://github.com/OldSamos/Jak-and-Daxter-Poptracker/releases/download/0.1.8/JakandDaxter.0.1.8.zip",
+			"sha256": "548b237a025536cb5873e6f8e60be4b6148fd492d479f6a0b3919b5144c363b7",
+			"changelog": ["Spider Cave Logic Update"]
+		},
+		{
 			"package_version": "0.1.7",
 			"download_url": "https://github.com/OldSamos/Jak-and-Daxter-Poptracker/releases/download/0.1.7/JakandDaxter.0.1.7.zip",
 			"sha256": "71739e13d58dfe63595dfa8c35becab11496408128f74f5ddc1827b00078e1f1",
