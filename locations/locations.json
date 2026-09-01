@@ -890,7 +890,7 @@
                     },
 					{
                         "name": "Power Cell (Explore the Dark Cave)",
-						"access_rules": ["DoubleJump,[CanFight]","Crouch,CrouchJump,[CanFight]","JumpDive,[OutofLogic]","$no_rando","Roll,RollJump,[OutofLogic]","Crouch,CrouchUppercut,JumpKick,[OutofLogic]","CrouchJump,[OutofLogic]"],				
+						"access_rules": ["DoubleJump,[CanFight]","Crouch,CrouchJump,[CanFight]","JumpDive,[OutofLogic]","$no_rando","Roll,RollJump,[OutofLogic]","Crouch,CrouchUppercut,JumpKick,[OutofLogic]","CrouchJump,[OutofLogic]","Punch,PunchUppercut,[OutofLogic]"],				
                         "item_count": 1
                     },
 					{
@@ -927,7 +927,7 @@
                     },
 					{
                         "name": "Scout Fly (Dark Cave)",
-						"access_rules": ["DoubleJump,$flybox,[CanFight]","CrouchJump,$flybox,[CanFight]","JumpDive,[OutofLogic]","$no_rando"],						
+						"access_rules": ["DoubleJump,$flybox,[CanFight]","CrouchJump,$flybox,[CanFight]","JumpDive,[OutofLogic]","$no_rando","Punch,PunchUppercut,[OutofLogic]","Roll,RollJump,$flybox,[OutofLogic]"],						
                         "item_count": 1
                     },
 					{
@@ -960,7 +960,7 @@
                 "sections": [
 
                     {					
-                        "name": "Gondola Press Circle",
+                        "name": "Gondola Press Circle"
                     },
 					{
                         "name": "Power Cell (Find the Yellow Vent Switch)",
