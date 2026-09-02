@@ -86,7 +86,7 @@
                     },
 					{
                         "name": "Scout Fly (Overlooking Farmer's House)",
-						"access_rules": ["[$over_and_over_and_uppies],$flybox","$no_rando","Punch,PunchUppercut,[OutofLogic]","Punch,Crouch,CrouchJump,[OutofLogic]","DoubleJump,[OutofLogic]"],
+						"access_rules": ["[$over_and_over_and_uppies],$flybox","$no_rando","Punch,PunchUppercut,[OutofLogic]","Punch,Crouch,CrouchJump,[OutofLogic]","DoubleJump,[OutofLogic]","CrouchUppercut,[OutofLogic]"],
                         "item_count": 1
                     },
 					{
@@ -187,7 +187,7 @@
                     },
 					{
                         "name": "Scout Fly (Overlooking Green Eco Vents)",
-						"access_rules": ["$log_moves,$flybox","DoubleJump,$flybox","CrouchJump,$flybox,[OutofLogic]","Crouch,CrouchJump,$flybox","BlueSwitch,JumpKick","$no_rando","JumpDive,[OutofLogic]","Roll,RollJump,[OutofLogic]"],
+						"access_rules": ["$log_moves,$flybox","DoubleJump,$flybox","CrouchJump,$flybox,[OutofLogic]","Crouch,CrouchJump,$flybox","BlueSwitch,JumpKick","$no_rando","JumpDive,[OutofLogic]","Roll,RollJump,[OutofLogic]","CrouchUppercut,[OutofLogic]","Punch,PunchUppercut,[OutofLogic]"],
                         "item_count": 1
                     },
 					{
@@ -198,7 +198,7 @@
                     {
                         "name": "Orb Bundle",
                         "visibility_rules": "Orbsanity_Level",
-                        "access_rules": ["$level_orbs_accessible|SB","Roll,RollJump,[OutofLogic]","Punch,[OutofLogic]","$no_rando,[OutofLogic]"],
+                        "access_rules": ["$level_orbs_accessible|SB","Roll,RollJump,[OutofLogic]","Punch,CrouchUppercut,[OutofLogic]","$no_rando,[OutofLogic]","Punch,PunchUppercut,[OutofLogic]"],
                         "item_count": 150
                     }
                 ],
@@ -493,7 +493,7 @@
                     },
 					{
                         "name": "Scout Fly (Behind Sage's Hut)",
-						"access_rules": ["$flybox","$no_rando"],
+						"access_rules": ["$flybox","$no_rando","CrouchUppercut,[OutofLogic]"],
                         "item_count": 1
                     },
 					{
