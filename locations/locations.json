@@ -586,7 +586,7 @@
                 "sections": [
 					{
                         "name": "Power Cell (Ride the Flut Flut)",
-						"access_rules": ["FlutFlut,$any_uppies","Crouch,CrouchJump,JumpKick,[OutofLogic]","Roll,RollJump,JumpDive,JumpKick,[OutofLogic]","Punch,PunchUppercut,[OutofLogic]"],
+						"access_rules": ["FlutFlut,$any_uppies","Crouch,CrouchJump,JumpKick,[OutofLogic]","Roll,RollJump,JumpDive,JumpKick,[OutofLogic]","Punch,PunchUppercut,[OutofLogic]","FlutFlut,[OutofLogic]"],
                         "item_count": 1
                     },
 					{
