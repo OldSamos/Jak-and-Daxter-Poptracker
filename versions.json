@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "0.2.0",
+			"download_url": "https://github.com/OldSamos/Jak-and-Daxter-Poptracker/releases/download/0.2.0/JakandDaxter.0.2.0.zip",
+			"sha256": "00252030ccadb092ecc60d8547a71aad9b34598976d4e25baf624178c42419a3",
+			"changelog": ["Sentinel Beach, Sandover Village, Rock Village Logic Update"]
+		},
+		{
 			"package_version": "0.1.9",
 			"download_url": "https://github.com/OldSamos/Jak-and-Daxter-Poptracker/releases/download/0.1.9/JakandDaxter.0.1.9.zip",
 			"sha256": "5431d62442892853c3df85b3257cd3bde1bd5d75602400a6a9ecaa53ab7292eb",
