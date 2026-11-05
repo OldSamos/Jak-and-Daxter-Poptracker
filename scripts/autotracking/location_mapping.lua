@@ -1469,6 +1469,7 @@ LOCATION_MAPPING = {
 	[741034776] =  {"@Mountain Pass/Mountain Pass/Orb Bundle"},
 --Volcanic Crater Region
 --Volcanic Crater
+	[741002153] =  {"@Tertiary Area - Volcanic Crater Region/Volcanic Crater/Gondola Press Circle"},
 	[741000100] =  {"@Tertiary Area - Volcanic Crater Region/Volcanic Crater/Power Cell (120 Orbs to the Oracle)"},
 	[741000101] =  {"@Tertiary Area - Volcanic Crater Region/Volcanic Crater/Power Cell (120 Orbs to the Oracle)"},
 	[741000096] =  {"@Tertiary Area - Volcanic Crater Region/Volcanic Crater/Power Cell (90 Orbs to the Miners)"},
@@ -1749,7 +1750,6 @@ LOCATION_MAPPING = {
 	[741035465] =  {"@Tertiary Area - Volcanic Crater Region/Spider Cave/Orb Bundle"},
 	[741035466] =  {"@Tertiary Area - Volcanic Crater Region/Spider Cave/Orb Bundle"},
 --Snowy Mountain
-	[741002153] =  {"@Tertiary Area - Volcanic Crater Region/Snowy Mountain/Gondola Press Circle"},
 	[741000066] =  {"@Tertiary Area - Volcanic Crater Region/Snowy Mountain/Power Cell (Deactivate the Precursor Blockers)"},
 	[741000060] =  {"@Tertiary Area - Volcanic Crater Region/Snowy Mountain/Power Cell (Find the Yellow Vent Switch)"},
 	[741002108] =  {"@Tertiary Area - Volcanic Crater Region/Snowy Mountain/Yellow Eco Switch"},
