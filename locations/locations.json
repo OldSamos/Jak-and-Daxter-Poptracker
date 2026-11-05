@@ -86,12 +86,12 @@
                     },
 					{
                         "name": "Scout Fly (Overlooking Farmer's House)",
-						"access_rules": ["[$over_and_over_and_uppies],$flybox","$no_rando","Punch,PunchUppercut,[OutofLogic]","Punch,Crouch,CrouchJump,[OutofLogic]","DoubleJump,[OutofLogic]","CrouchUppercut,[OutofLogic]"],
+						"access_rules": ["[$over_and_over_and_uppies],$flybox","$no_rando","Punch,PunchUppercut,[OutofLogic]","Punch,Crouch,CrouchJump,[OutofLogic]","DoubleJump,[OutofLogic]","CrouchUppercut,[OutofLogic]","Roll,RollJump,JumpKick,[OutofLogic]"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly (Near Oracle)",
-						"access_rules": ["Punch,PunchUppercut,[OutofLogic]","$no_rando","Crouch,CrouchJump,$flybox,[OutofLogic]","CrouchJump,$flybox,[OutofLogic]","$long_jumps,$flybox"],
+						"access_rules": ["Punch,PunchUppercut,[OutofLogic]","$no_rando","Crouch,CrouchJump,$flybox,[OutofLogic]","CrouchJump,$flybox,[OutofLogic]","$long_jumps,$flybox","CrouchUppercut,[OutofLogic]"],
                         "item_count": 1
                     },
 					{
@@ -856,7 +856,7 @@
                     },
                     {
                         "name": "Scout Fly",
-						"access_rules": ["$flybox","$no_rando","Punch,PunchUppercut,[OutofLogic]"],
+						"access_rules": ["$flybox","$no_rando","Punch,PunchUppercut,[OutofLogic]","CrouchUppercut,[OutofLogic]"],
                         "item_count": 7
                     },
                     {
