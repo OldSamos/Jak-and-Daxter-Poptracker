@@ -840,7 +840,10 @@
                 "name": "Volcanic Crater",               
                 "sections": [
 
-                    {
+                    {					
+                        "name": "Gondola Press Circle"
+                    },
+					{
                         "name": "Power Cell (90 Orbs to the Miners)",
 						"access_rules": ["[$orb_trades]"],
                         "item_count": 4
