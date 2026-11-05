@@ -894,12 +894,6 @@
                         "access_rules": ["$level_orbs_accessible|VC","$cell_gate|1,[OutofLogic]"],
                         "item_count": 50
                     }
-                    {
-                        "name": "Orb Bundle",
-                        "visibility_rules": "Orbsanity_Level",
-                        "access_rules": ["$level_orbs_accessible|VC","$cell_gate|1,[OutofLogic]"],
-                        "item_count": 50
-                    }
                 ],
                 "map_locations": [
                     {
