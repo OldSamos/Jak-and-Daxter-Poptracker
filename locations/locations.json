@@ -864,12 +864,12 @@
                     },
                     {
                         "name": "Scout Fly Near Oracle",
-						"access_rules": ["$flybox","$no_rando","Punch,PunchUppercut,[OutofLogic]","CrouchUppercut,[OutofLogic]"],
+						"access_rules": ["$flybox","$no_rando","Punch,PunchUppercut,[OutofLogic]","CrouchUppercut,[OutofLogic]","FlutFlut,[OutofLogic]"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly In Miner's Cave",
-						"access_rules": ["$flybox","$no_rando","Punch,PunchUppercut,[OutofLogic]","CrouchUppercut,[OutofLogic]"],
+						"access_rules": ["$flybox","$no_rando","Punch,PunchUppercut,[OutofLogic]","CrouchUppercut,[OutofLogic]","FlutFlut,[OutofLogic]"],
                         "item_count": 1
                     },{
                         "name": "Scout Fly At Minecart Junction",
@@ -883,12 +883,12 @@
                     },
 					{
                         "name": "Scout Fly Near Spider Cave",
-						"access_rules": ["$flybox","$no_rando","Punch,PunchUppercut,[OutofLogic]","CrouchUppercut,[OutofLogic]"],
+						"access_rules": ["[$flybox]","$no_rando","Punch,PunchUppercut,[OutofLogic]"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly On Stone Platforms",
-						"access_rules": ["$flybox","$no_rando","Punch,PunchUppercut,[OutofLogic]"],
+						"access_rules": ["$flybox","$no_rando","Punch,PunchUppercut,[OutofLogic]","FlutFlut,[OutofLogic]"],
                         "item_count": 1
                     },
                     {
