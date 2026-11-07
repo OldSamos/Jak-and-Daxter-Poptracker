@@ -991,9 +991,6 @@
                 "name": "Snowy Mountain",
                 "sections": [
 
-                    {					
-                        "name": "Gondola Press Circle"
-                    },
 					{
                         "name": "Power Cell (Find the Yellow Vent Switch)",
 						"access_rules": ["FlutFlut,Gondola,[OutofLogic]","Punch,PunchUppercut,JumpKick,Gondola[OutofLogic]","$long_jumps,Gondola"],
