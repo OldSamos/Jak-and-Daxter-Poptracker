@@ -2,6 +2,12 @@
 	"versions": [
 		
 		{
+			"package_version": "0.2.7",
+			"download_url": "https://github.com/OldSamos/Jak-and-Daxter-Poptracker/releases/download/0.2.7/JakandDaxter.0.2.7.zip",
+			"sha256": "404e73546484be92ef8c92c5599dbec01f50c8a09fa8da56aea0355e8106880f",
+			"changelog": ["Logic Update, FJ Logic"]
+		},
+		{
 			"package_version": "0.2.6",
 			"download_url": "https://github.com/OldSamos/Jak-and-Daxter-Poptracker/releases/download/0.2.6/JakandDaxter.0.2.6.zip",
 			"sha256": "0b37bfe37f4e6be094393e766f0ca94a3c5dac69dc5fb54030711f95c409b7c3",
