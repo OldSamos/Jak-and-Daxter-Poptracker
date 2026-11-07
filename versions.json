@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "0.2.5",
+			"download_url": "https://github.com/OldSamos/Jak-and-Daxter-Poptracker/releases/download/0.2.5/JakandDaxter.0.2.5.zip",
+			"sha256": "a621605b8b4fdd5ee4187f096b34d3da119f6d9138d517b7cd074c63628a5cf4",
+			"changelog": ["Logic Update, Moved gondola press to volcanic crater"]
+		},
+		{
 			"package_version": "0.2.4",
 			"download_url": "https://github.com/OldSamos/Jak-and-Daxter-Poptracker/releases/download/0.2.4/JakandDaxter.0.2.4.zip",
 			"sha256": "da3f894096aab5f8c849a1f98e9087e2bce22b510687b09d30275736c412af20",
