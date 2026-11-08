@@ -859,36 +859,36 @@
                     },
                     {
                         "name": "Scout Fly Near Mountain Pass",
-						"access_rules": ["$flybox","$no_rando","Punch,PunchUppercut,[OutofLogic]","CrouchUppercut,[OutofLogic]"],
+						"access_rules": ["$flybox","$no_rando","Punch,PunchUppercut,[OutofLogic]","CrouchUppercut,[OutofLogic]","FlutFlut,Gondola,[OutofLogic]"],
                         "item_count": 1
                     },
                     {
                         "name": "Scout Fly Near Oracle",
-						"access_rules": ["$flybox","$no_rando","Punch,PunchUppercut,[OutofLogic]","CrouchUppercut,[OutofLogic]","FlutFlut,[OutofLogic]"],
+						"access_rules": ["$flybox","$no_rando","Punch,PunchUppercut,[OutofLogic]","CrouchUppercut,[OutofLogic]","FlutFlut,Gondola,[OutofLogic]"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly In Miner's Cave",
-						"access_rules": ["$flybox","$no_rando","Punch,PunchUppercut,[OutofLogic]","CrouchUppercut,[OutofLogic]","FlutFlut,[OutofLogic]"],
+						"access_rules": ["$flybox","$no_rando","Punch,PunchUppercut,[OutofLogic]","CrouchUppercut,[OutofLogic]","FlutFlut,Gondola,[OutofLogic]"],
                         "item_count": 1
                     },{
                         "name": "Scout Fly At Minecart Junction",
-						"access_rules": ["$flybox","$no_rando","Punch,PunchUppercut,[OutofLogic]","CrouchUppercut,[OutofLogic]"],
+						"access_rules": ["$flybox","$no_rando","Punch,PunchUppercut,[OutofLogic]","CrouchUppercut,[OutofLogic]","FlutFlut,Gondola,[OutofLogic]"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly Near Lava Tube",
-						"access_rules": ["$flybox","$no_rando","Punch,PunchUppercut,[OutofLogic]","CrouchUppercut,[OutofLogic]"],
+						"access_rules": ["$flybox","$no_rando","Punch,PunchUppercut,[OutofLogic]","CrouchUppercut,[OutofLogic]","FlutFlut,Gondola,[OutofLogic]"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly Near Spider Cave",
-						"access_rules": ["[$flybox]","$no_rando","Punch,PunchUppercut,[OutofLogic]"],
+						"access_rules": ["[$flybox]","$no_rando","Punch,PunchUppercut,[OutofLogic]","FlutFlut,Gondola,[OutofLogic]"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly On Stone Platforms",
-						"access_rules": ["$flybox","$no_rando","Punch,PunchUppercut,[OutofLogic]","FlutFlut,[OutofLogic]"],
+						"access_rules": ["$flybox","$no_rando","Punch,PunchUppercut,[OutofLogic]","FlutFlut,Gondola,[OutofLogic]"],
                         "item_count": 1
                     },
                     {
