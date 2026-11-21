@@ -1158,22 +1158,22 @@
                     },
 					{
                         "name": "Power Cell (Free the Yellow Sage)",
-                        "access_rules": ["JumpDive,CanFight,$some_uppies,DoubleJump,JumpKick",",CanFight,Roll,RollJump","$no_rando"],
+                        "access_rules": ["JumpDive,CanFight,$some_uppies,DoubleJump,JumpKick",",CanFight,Roll,RollJump","$no_rando","[OutofLogic]"],
                         "item_count": 1
                     },
 					{
                         "name": "Yellow Sage Freed",
-                        "access_rules": ["JumpDive,CanFight,$some_uppies,DoubleJump,JumpKick",",CanFight,Roll,RollJump","$no_rando"],
+                        "access_rules": ["JumpDive,CanFight,$some_uppies,DoubleJump,JumpKick",",CanFight,Roll,RollJump","$no_rando","[OutofLogic]"],
                         "item_count": 1
                     },
 					{
                         "name": "Power Cell (Free the Green Sage)",
-						"access_rules": ["SagesFreed: 3,JumpDive,$over_and_uppies,CanFight","SagesFreed: 3,Roll,RollJump,$over_and_uppies,CanFight","Punch,PunchUppercut,JumpKick,DoubleJump[OutofLogic]","SagesFreed: 3,$no_rando"],
+						"access_rules": ["SagesFreed: 3,JumpDive,$over_and_uppies,CanFight","SagesFreed: 3,Roll,RollJump,$over_and_uppies,CanFight","Punch,PunchUppercut,JumpKick,DoubleJump,[OutofLogic]","SagesFreed: 3,$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Green Sage Freed",
-                        "access_rules": ["SagesFreed: 3,JumpDive,$over_and_uppies,CanFight","SagesFreed: 3,Roll,RollJump,$over_and_uppies,CanFight","Punch,PunchUppercut,JumpKick,DoubleJump[OutofLogic]","SagesFreed: 3,$no_rando"],
+                        "access_rules": ["SagesFreed: 3,JumpDive,$over_and_uppies,CanFight","SagesFreed: 3,Roll,RollJump,$over_and_uppies,CanFight","Punch,PunchUppercut,JumpKick,DoubleJump,[OutofLogic]","SagesFreed: 3,$no_rando"],
                         "item_count": 1
                     },
                     {
@@ -1191,7 +1191,7 @@
                     },
                     {
                         "name": "Scout Fly (Entrance)",
-						"access_rules": ["$flybox","$no_rando"],						
+						"access_rules": ["$flybox","$no_rando","Punch,PunchUppercut,[OutofLogic]"],						
                         "item_count": 1
                     },
 					{
@@ -1215,18 +1215,18 @@
                     },
 					{
                         "name": "Scout Fly (Before Jumping Lurkers)",
-						"access_rules": ["JumpDive,CanFight,$some_uppies,DoubleJump,JumpKick","Roll,RollJump,CanFight,$some_uppies,DoubleJump,JumpKick,$flybox","$no_rando"],
+						"access_rules": ["JumpDive,CanFight,$some_uppies,DoubleJump,JumpKick","Roll,RollJump,CanFight,$some_uppies,DoubleJump,JumpKick,$flybox","$no_rando","Punch,PunchUppercut,[OutofLogic]"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly (Top of Rotating Tower)",
-						"access_rules": ["SagesFreed: 3,JumpDive,$stair_uppies","SagesFreed: 3,Roll,RollJump,$stair_uppies","SagesFreed:3,$no_rando","Punch,PunchUppercut,JumpKick,DoubleJump[OutofLogic]"],
+						"access_rules": ["SagesFreed: 3,JumpDive,$stair_uppies","SagesFreed: 3,Roll,RollJump,$stair_uppies,$flybox","SagesFreed:3,$no_rando","Punch,PunchUppercut,JumpKick,DoubleJump,[OutofLogic]"],
                         "item_count": 1
                     },
                     {
                         "name": "Orb Bundle",
                         "visibility_rules": "Orbsanity_Level",
-                        "access_rules": ["SagesFreed: 3,JumpDive,$over_and_uppies,CanFight","SagesFreed: 3,Roll,RollJump,$over_and_uppies,CanFight","Punch,PunchUppercut,JumpKick,DoubleJump[OutofLogic]","SagesFreed: 3,$no_rando"],
+                        "access_rules": ["SagesFreed: 3,JumpDive,$over_and_uppies,CanFight","SagesFreed: 3,Roll,RollJump,$over_and_uppies,CanFight","Punch,PunchUppercut,JumpKick,DoubleJump,[OutofLogic]","SagesFreed: 3,$no_rando"],
                         "item_count": 200
                     }
                 ],
